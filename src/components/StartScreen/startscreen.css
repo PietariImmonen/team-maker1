@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.start {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.start-ballHolder1 {
+    position: absolute;
+    left: -1rem;
+    top: -20%;
+}
+.start-ballHolder2 {
+    position: absolute;
+    left: -2rem;
+    bottom: -10%;
+}
+.start-ballHolder3 {
+    position: absolute;
+    right: 5rem;
+    top: 10%;
+}
+.start-ballHolder4 {
+    position: absolute;
+    right: -3rem;
+    bottom: -30%;
+}
+
+h1 {
+    font-family: 'Sora', sans-serif;
+    font-size: 80px;
+}
+
+.headingLinks {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    max-width: 80%;
+}
+
+.hl-button-container {
+    display: flex;
+    gap: 10px;
+}
