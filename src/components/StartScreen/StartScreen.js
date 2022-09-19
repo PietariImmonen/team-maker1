@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
 import NormalBall from '../NormalBall/NormalBall'
 import HeadingLinks from './HeadingLinks'
 import './startscreen.css'
@@ -6,6 +7,7 @@ import './startscreen.css'
 const StartScreen = () => {
   return (
     <div className='start'>
+      <Navbar />
       <div className='start-ballHolder1'>
         <NormalBall bg={"#FF9A0C"}/>
       </div>
