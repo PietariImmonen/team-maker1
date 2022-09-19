@@ -1,0 +1,60 @@
+.teamCreator-setting-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.teamCreator-setting {
+    box-sizing: border-box;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(121, 110, 249, 0.3) 0%, rgba(64, 174, 255, 0.3) 100%);
+    border: 2px solid #050505;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.setting-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem
+}
+
+.setting-name {
+    align-items: center;
+}
+
+.setting-name-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.textField-big {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.textField-helper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.textField-names {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 1rem;
+}

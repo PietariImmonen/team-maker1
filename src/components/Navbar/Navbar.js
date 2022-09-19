@@ -28,9 +28,9 @@ const Navbar = () => {
         }
         <div>
             {showPop ?
-                <BsX size={'50px'} onClick={() => setShowPop(false)}/>
+                <BsX size={'50px'} onClick={() => setShowPop(false)} style={{marginRight: '2rem'}}/>
             :
-                <BsList size={'40px'} onClick={() => setShowPop(true)}/>
+                <BsList size={'40px'} onClick={() => setShowPop(true)} style={{marginRight: '2rem'}}/>
             }
         </div>
     </div>

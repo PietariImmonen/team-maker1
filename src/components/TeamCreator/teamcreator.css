@@ -1,0 +1,15 @@
+.teamCreator {
+    height: 200vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.teamCreator-container {
+    z-index: 2;
+}
