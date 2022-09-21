@@ -58,3 +58,43 @@
     font-weight: 300;
     margin-top: 1rem;
 }
+
+.teams-container {
+    box-sizing: border-box;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(121, 110, 249, 0.3) 0%, rgba(64, 174, 255, 0.3) 100%);
+    border: 2px solid #050505;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.teams-helper-container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+
+.team-container {
+    width: auto;
+    height: auto;
+    padding: 2rem;
+    background-color: #FFFFFF;
+    opacity: 70%;
+    border-radius: 20px;
+    border: #050505 1px solid;
+}
+
+.player-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
