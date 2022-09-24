@@ -6,7 +6,7 @@ const Team = ({team}) => {
 
     useEffect(() => {
       setPlayers(team)
-    }, [])
+    }, [team])
     
 
   return (

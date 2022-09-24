@@ -1,6 +1,6 @@
 .navbar {
     height: 80px;
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,6 +8,8 @@
     z-index: 4;
     margin: 1rem;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    top: 0;
+    position: absolute;
 }
 
 h2 {
@@ -43,6 +45,7 @@ h2 {
     font-size: 18px;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .navbar-link-text {
@@ -57,4 +60,10 @@ h2 {
     position: absolute;
     right: 10px;
     top: 10px;
+}
+
+@media screen and (max-width: 450px) {
+    .nav-icon {
+        margin-right: 1rem;
+    }
 }

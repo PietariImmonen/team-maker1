@@ -32,7 +32,7 @@ const TeamCreatorSetting = ({name, type, input, handleChange, addToArray, allGam
                     </div>
                     :
                     <div className='textField-helper'>
-                        <TextField id="standard-basic" label="Name" variant="standard" sx={{width: '60%', fontFamily: 'Montserrat, sans-serif' }} value={input} onChange={handleChange}/>
+                        <TextField id="standard-basic" label="Name" variant="standard" sx={{width: '100%', fontFamily: 'Montserrat, sans-serif' }} value={input} onChange={handleChange}/>
                         <ButtonSmall text='Submit name' handleClick={addToArray}/>
                     </div>
                     }

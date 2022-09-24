@@ -1,0 +1,24 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "task": "json-server",
+      "drink": "typicode"
+    },
+    {
+      "id": 2,
+      "task": "1",
+      "drink": "typicode"
+    },
+    {
+      "id": 3,
+      "task": "2",
+      "drink": "typicode"
+    },
+    {
+      "id": 4,
+      "task": "3",
+      "drink": "typicode"
+    }
+  ]
+}

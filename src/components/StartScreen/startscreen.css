@@ -51,10 +51,37 @@ h1 {
     flex-direction: column;
     max-width: 80%;
     margin-left: 10%;
-    margin-top: 10vh;
+    padding-top: 15%;
 }
 
 .hl-button-container {
     display: flex;
     gap: 10px;
+}
+
+@media screen and (max-width: 720px) {
+    h1 {
+        font-size: 60px;
+        padding-top: 30%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 40px;
+        padding-top: 50%;
+    }
+
+
+    .start {
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+    .hl-button-container {
+        flex-direction: column;
+    }
+
 }

@@ -8,7 +8,7 @@
 
 .teamCreator-setting {
     box-sizing: border-box;
-    width: 100%;
+    width: 60%;
     background: linear-gradient(180deg, rgba(121, 110, 249, 0.3) 0%, rgba(64, 174, 255, 0.3) 100%);
     border: 2px solid #050505;
     border-radius: 30px;
@@ -21,10 +21,11 @@
 .setting-container {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     align-items: flex-start;
     justify-content: center;
-    gap: 2rem
+    gap: 2rem;
+    margin: 0 5rem;
 }
 
 .setting-name {
@@ -61,7 +62,6 @@
 
 .teams-container {
     box-sizing: border-box;
-    width: 100%;
     background: linear-gradient(180deg, rgba(121, 110, 249, 0.3) 0%, rgba(64, 174, 255, 0.3) 100%);
     border: 2px solid #050505;
     border-radius: 30px;
@@ -70,11 +70,12 @@
     padding: 2rem;
     display: flex;
     flex-direction: column;
+    width: 60%;
 }
 
 .teams-helper-container {
     display: grid;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 48% 48%;
     column-gap: 1rem;
     row-gap: 1rem;
     width: 100%;
@@ -83,8 +84,6 @@
 
 
 .team-container {
-    width: auto;
-    height: auto;
     padding: 2rem;
     background-color: #FFFFFF;
     opacity: 70%;
@@ -97,4 +96,31 @@
     font-size: 20px;
     font-weight: 300;
     margin: 0;
+}
+
+@media screen and (max-width: 720px) {
+    .teamCreator-setting {
+        width: 80%;
+    }
+
+    .setting-name-text {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        margin: 0;
+    }
+    
+    .setting-container {
+        margin: 0 1rem;
+    }
+
+    .teams-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .teamCreator-setting {
+        padding: 0.5rem;
+    }
 }
