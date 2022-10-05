@@ -1,8 +1,13 @@
 import axios from 'axios'
 
-const baseUrl = 'http://localhost:3001/tasks'
+const baseUrl = 'http://localhost:3002/api/tasks'
 
-export const getAll = async () => {
-  const response = await axios.get(baseUrl)
-  return response.data
+export const getAll = () => {
+  return axios.get(baseUrl)
+}
+
+export const createNew = async (newObject) => {
+  console.log(newObject)
+  const req = axios.post(baseUrl, newObject)
+  return req.then(res => res.data)
 }

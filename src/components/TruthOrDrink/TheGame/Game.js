@@ -18,10 +18,10 @@ const Game = ({tasks}) => {
    const handleClick = () => {
 
     if(datas.length===1) {
-        setDatas(tasks)
+        setDatas(tasks.data)
     }
 
-    if(clicked<datas.length-1 && datas.length !== 1) {
+    if(clicked<datas.length-1) {
         setClicked(clicked+1)
     }
    }
